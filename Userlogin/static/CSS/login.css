@@ -1,0 +1,30 @@
+body{
+    
+    background:  url("Gallery/login_image.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+ background-color:black;
+ color:white;
+ box-sizing: border-box;
+ border-radius: 12px;
+ position: relative;left: 50px;right: 650px ;
+ margin-top:200px;
+ margin-left:10px;
+ margin-bottom:5px;
+ height:400px;
+ width: 300px;
+}
+.submit{
+    background-color:rgb(20, 227, 38);
+    color:black;
+    font-weight:bold;
+
+    border-radius: 12px;
+    
+    height:40px;
+    width: 90px;
+
+}
