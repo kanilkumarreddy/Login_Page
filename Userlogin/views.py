@@ -1,8 +1,10 @@
 from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
 
 def login(request):
     return render(request,'login.html')
 
+@csrf_exempt
 def Welcome(request):
     user=request.POST.get("username")
     password=request.POST.get("password")
